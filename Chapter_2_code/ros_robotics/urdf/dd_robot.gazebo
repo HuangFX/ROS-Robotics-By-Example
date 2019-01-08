@@ -50,14 +50,14 @@
   <!-- Right Wheel -->
   <link name="right_wheel">
     <visual>
-      <origin xyz="0 0 0" rpy="1.570795 0 0" />
+      <origin xyz="0 -0.30 0" rpy="1.570795 0 0" />
       <geometry>
           <cylinder length="0.1" radius="0.2" />
       </geometry>
     </visual>
     <!-- Right Wheel collision, mass and inertia -->
     <collision>
-      <origin xyz="0 0 0" rpy="1.570795 0 0" />
+      <origin xyz="0 -0.30 0" rpy="1.570795 0 0" />
       <geometry>
           <cylinder length="0.1" radius="0.2" />
       </geometry>
@@ -84,14 +84,14 @@
   <!-- Left Wheel -->
   <link name="left_wheel">
     <visual>
-      <origin xyz="0 0 0" rpy="1.570795 0 0" />
+      <origin xyz="0 0.30 0" rpy="1.570795 0 0" />
       <geometry>
           <cylinder length="0.1" radius="0.2" />
       </geometry>
     </visual>
     <!-- Left Wheel collision, mass and inertia -->
     <collision>
-      <origin xyz="0 0 0" rpy="1.570795 0 0" />
+      <origin xyz="0 0.30 0" rpy="1.570795 0 0" />
       <geometry>
           <cylinder length="0.1" radius="0.2" />
       </geometry>
